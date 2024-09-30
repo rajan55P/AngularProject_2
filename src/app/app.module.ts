@@ -7,12 +7,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StudentComponent } from './features/student/components/student/student.component';
 import { UserComponent } from './features/user/components/user/user.component';
+import {FileProcessingComponent} from './features/file-processing/components/file-processing/file-processing.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     StudentComponent,
-    UserComponent
+    UserComponent,
+    FileProcessingComponent
   ],
   imports: [
     BrowserModule,
